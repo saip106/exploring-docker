@@ -1,0 +1,7 @@
+FROM node:10.14
+
+LABEL maintainer="Sai Gudigundla"
+RUN mkdir c:\src
+COPY app.js c:\src\app.js
+EXPOSE 3000
+CMD node c:\src\app.js
