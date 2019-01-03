@@ -1,0 +1,1 @@
+console.log("hello from node running in a container");
