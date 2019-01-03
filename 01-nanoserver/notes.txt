@@ -1,0 +1,15 @@
+01
+  -i or --interactive
+  -t or --tty
+  -d or --detach 
+  -n or --name
+  --rm 
+  docker ps
+  docker pa -a
+  docker attach <container_name>
+  docker stop <container_name>
+  docker start <container_name>
+  docker prune
+  docker run -itd microsoft/nanoserver powershell
+  docker images
+  
